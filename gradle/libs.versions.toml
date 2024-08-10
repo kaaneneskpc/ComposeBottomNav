@@ -10,6 +10,7 @@ activityCompose = "1.9.1"
 composeBom = "2024.04.01"
 navigationRuntimeKtx = "2.7.7"
 navigationCompose = "2.7.7"
+animatedNavigationBar = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -28,6 +29,7 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+animated-navigation-bar = { group = "com.exyte", name = "animated-navigation-bar", version.ref = "animatedNavigationBar" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -15,8 +15,7 @@ import androidx.compose.ui.unit.sp
 fun ProfileScreen() {
     Column(
         modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Gray),
+            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
